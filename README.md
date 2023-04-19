@@ -24,4 +24,5 @@ def test_lf_sha256():
       - The target functions should be specified by `target_func = ["func1", "func2"]`.
 * R8. There is a member function called “getLFMap()” in LFTracer, which returns a dictionary of {“func1”: {1: x1, 2: y1, ...}, “func2”: {1: x2, 2: y2, ...}, …}.
 * R9. "target_function" can be called multiple times.
+* R10. To run some test cases given, you should install necessary pacakges listed in `requirements.txt`.
 
